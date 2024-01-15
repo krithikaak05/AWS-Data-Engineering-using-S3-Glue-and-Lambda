@@ -65,7 +65,7 @@ Basic familiarity with AWS S3, Glue, Lambda, and IAM services.
 6.Configure IAM permissions:
   Ensure appropriate IAM permissions are in place for the Glue job and Lambda function to access S3 buckets.
 
-![Architecture](images/aws_arch.png)
+![Architecture](aws_arch.png)
 
 ## Running the Project
 
