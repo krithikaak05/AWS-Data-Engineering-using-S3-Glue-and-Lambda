@@ -19,13 +19,6 @@ AWS Glue,
 AWS Lambda,
 IAM
 
-## Project Highlights
-
-Demonstrates proficiency in data engineering tasks on AWS.
-Employs serverless architecture for efficient data processing.
-Implements robust data filtering based on specific requirements.
-Facilitates both cloud-based and local-based data analysis.
-
 ## Project Structure
 
 This repository includes:
@@ -37,8 +30,12 @@ run_clean file (the filtered and clean sales data)
 
 ## Setup Instructions
 
+Download Dataset from: https://www.kaggle.com/datasets/tylermorse/retail-business-sales-20172019
+
 Prerequisites:
+
 An AWS account with necessary permissions.
+
 Basic familiarity with AWS S3, Glue, Lambda, and IAM services.
 
 1.Create S3 buckets:
