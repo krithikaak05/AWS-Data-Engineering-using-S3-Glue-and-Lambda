@@ -25,6 +25,7 @@ Demonstrates proficiency in data engineering tasks on AWS.
 Employs serverless architecture for efficient data processing.
 Implements robust data filtering based on specific requirements.
 Facilitates both cloud-based and local-based data analysis.
+
 ## Project Structure
 
 This repository includes:
@@ -55,12 +56,14 @@ Basic familiarity with AWS S3, Glue, Lambda, and IAM services.
 5.Create Lambda function:
   Create a Lambda function using the lambda_function.py code. I have used a boto script :
 
+  ```
   import json
   import boto3
   glueClient - boto3.client('glue')
   def lamnda_handler(event,context):
     glueClient.start_job_run(Jobname="your jobname")
     return "Job Started"
+   ```
 
 6.Configure IAM permissions:
   Ensure appropriate IAM permissions are in place for the Glue job and Lambda function to access S3 buckets.
