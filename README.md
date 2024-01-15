@@ -30,9 +30,9 @@ Facilitates both cloud-based and local-based data analysis.
 
 This repository includes:
 
-README.md (this file)
-lambda_function.py (Python code for the Lambda function)
-sample_data.csv (a sample of the original sales data)
+README.md (this file),
+lambda_function.py (Python code for the Lambda function),
+sample_data.csv (a sample of the original sales data),
 clean_data.csv (the filtered and clean sales data)
 
 ## Setup Instructions
